@@ -1,17 +1,18 @@
 # h3-fip-desktop
 conky theme like H3-FIP
+
 H3-FIP(H3ロケット打ち上げのライブ配信画面)ライクなデスクトップ(conkyのconfigファイル)です。
 
 ## use
-install conky.
+1.install conky.
 `sudo apt install conky-all`
 
-complete config.
+2.complete config.
 - put .conkyrc directory under ~
 - put draw.lua directory under ~/.config/conky
 - remove /etc/conky/*
 
-start the daemon
+3.start the daemon
 `conky -d`
 
 ---
