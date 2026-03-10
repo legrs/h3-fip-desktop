@@ -9,6 +9,7 @@ install conky.
 complete config.
 - put .conkyrc directory under ~
 - put draw.lua directory under ~/.config/conky
+- remove /etc/conky/*
 
 start the daemon
 `conky -d`
