@@ -1,3 +1,5 @@
+--  Copyright (C) 2026  github@legrs/Twitter@legrs4073
+
 require 'cairo' 
 
 function conky_main()
