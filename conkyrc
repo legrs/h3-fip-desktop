@@ -1,0 +1,21 @@
+conky.config = {
+    update_interval = 1.0,
+ minimum_width = 1920,
+    minimum_height = 1080,   
+    own_window = true,
+    own_window_type = 'desktop',
+    own_window_transparent = true,
+    own_window_argb_visual = true,
+    double_buffer = true,
+    alignment = 'top_left',
+    gap_x = 0,
+    gap_y = 0,
+
+    lua_load = '~/.config/conky/draw.lua',
+    lua_draw_hook_post = 'conky_main',
+}
+
+conky.text = [[
+# テキストエリアは空でもOKですが、一応ラベルだけ
+#${voffset 140}${offset 110}LUA CIRCLE
+]]
