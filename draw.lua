@@ -222,12 +222,6 @@ function conky_main()
     cairo_stroke(cr)
 
     cairo_pattern_destroy(lg)
-
-    cairo_new_path(cr)
-    cairo_arc(cr, screen_x/2, timeline_y, radius, 0, 2 * math.pi)
-    cairo_set_source_rgba(cr, 1,1,1,1)
-    cairo_fill(cr)
-
     local i = 0
     local delta = timestamp%freq /freq * w
     print(delta)
@@ -245,6 +239,17 @@ function conky_main()
         cairo_stroke(cr)
         i = i+1
     end
+
+
+    cairo_new_path(cr)
+    cairo_arc(cr, screen_x/2, timeline_y, radius, 0, 2 * math.pi)
+    cairo_set_source_rgba(cr, 1,1,1,1)
+    cairo_fill(cr)
+
+    cairo_new_path(cr)
+    cairo_arc(cr, screen_x/2, timeline_y, radius+5, 0, 2 * math.pi)
+    cairo_set_source_rgba(cr, 1,1,1,0.5)
+    cairo_fill(cr)
 
 
 
