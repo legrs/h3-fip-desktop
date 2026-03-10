@@ -16,6 +16,4 @@ conky.config = {
 }
 
 conky.text = [[
-# テキストエリアは空でもOKですが、一応ラベルだけ
-#${voffset 140}${offset 110}LUA CIRCLE
 ]]
