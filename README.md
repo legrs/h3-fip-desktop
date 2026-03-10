@@ -3,6 +3,8 @@ conky theme like H3-FIP
 
 H3-FIP(H3ロケット打ち上げのライブ配信画面)ライクなデスクトップ(conkyのconfigファイル)です。
 
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/38efde5e-c166-4298-a687-3ec31736fafd" />
+
 ## use
 1.install conky.
 `sudo apt install conky-all`
