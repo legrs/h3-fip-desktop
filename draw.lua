@@ -224,7 +224,6 @@ function conky_main()
     cairo_pattern_destroy(lg)
     local i = 0
     local delta = timestamp%freq /freq * w
-    print(delta)
     while w*(i-1)<=screen_x do
         local x = i*(w+o)-delta
         cairo_new_path(cr)
